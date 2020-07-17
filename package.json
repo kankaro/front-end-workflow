@@ -2,7 +2,10 @@
   "name": "front-end-workflow",
   "version": "1.0.0",
   "description": "Starter kit workflow for frontend development using parcel",
-  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kankaro/front-end-workflow.git"
+  },
   "scripts": {
     "clean": "rimraf ./development && rimraf -rf ./.cache",
     "clean:build": "rimraf -rf ./dist/*",
